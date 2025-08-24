@@ -55,7 +55,7 @@ export class MemStorage implements IStorage {
       },
       {
         id: "4",
-        title: "Social Media Platform",
+        title: "Personal Loan Campaign",
         description: "A modern social media application with real-time messaging, image sharing, and social features built with React and Socket.io.",
         imageUrl: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
         technologies: ["React", "Socket.io", "Express", "MongoDB"],
@@ -65,7 +65,7 @@ export class MemStorage implements IStorage {
       },
       {
         id: "5",
-        title: "Crypto Trading Platform",
+        title: "Online Food Ordering Analysis App",
         description: "A cryptocurrency trading platform with real-time price tracking, portfolio management, and advanced charting capabilities.",
         imageUrl: "https://images.unsplash.com/photo-1559526324-593bc073d938?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
         technologies: ["Vue.js", "FastAPI", "PostgreSQL", "WebSocket"],
