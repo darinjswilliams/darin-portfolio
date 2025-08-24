@@ -25,7 +25,7 @@ export class MemStorage implements IStorage {
     const sampleProjects: Project[] = [
       {
         id: "1",
-        title: "Protective Gear Monitoring with Computer Vision",
+        title: "Helmet Detection via Computer Vision",
         description: "A full-stack e-commerce solution built with React, Node.js, and MongoDB. Features include user authentication, payment processing, and admin dashboard.",
         imageUrl: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
         technologies: ["React", "Node.js", "MongoDB", "Stripe"],
