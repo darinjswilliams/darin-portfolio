@@ -69,7 +69,7 @@ export default function ContactSection() {
     {
       icon: Phone,
       title: "Phone",
-      value: "972-261-3810",
+      value: "+1 (972)-261-3810",
     },
     {
       icon: MapPin,
