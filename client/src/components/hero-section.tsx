@@ -22,7 +22,7 @@ export default function HeroSection() {
               Hi, I'm <span className="text-primary">Darin</span>
             </h1>
             <p className="text-xl md:text-2xl text-slate-600 mb-4 font-medium">
-              AI/ML Engineer
+              AI/ML Engineer | MIT-Certified in Graph Algorithms & Large Language Models | Building Scalable Solutions in Healthcare & Legal Tech | Azure AI Engineer | Microsoft Professional AI & ML Engineer
             </p>
             <p className="text-lg text-slate-600 mb-8 max-w-lg mx-auto lg:mx-0">
               I build scalable web applications and create exceptional digital
