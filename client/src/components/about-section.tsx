@@ -27,7 +27,7 @@ export default function AboutSection() {
             </h2>
             <div className="space-y-6 text-lg text-slate-600">
               <p>
-                AI/ML Engineer leveraging 15+ years of software engineering experience to build intelligent, scalable systems that solve real-world problems. After earning Developer of the Year twice at BlueCross Blue Shield, I transitioned into machine learning through professional certifications from MIT, Microsoft, and the University of Texas at Austin—where I focused on applying AI to business-critical challenges.
+                AI/ML Engineer leveraging 15+ years of software engineering experience to build intelligent, scalable systems that solve real-world problems. After earning Developer of the Year twice at BlueCross Blue Shield, I transitioned into machine learning through professional certifications from <span className="text-red-800 font-semibold">MIT</span>, <span className="text-blue-800 font-semibold">Microsoft</span>, and the <span className="text-orange-600 font-semibold">University of Texas at Austin</span>—where I focused on applying AI to business-critical challenges.
               </p>
               <p>
                 I specialize in NLP, Retrieval-Augmented Generation (RAG), MLOps, and cloud-native deployments. My recent work includes:
