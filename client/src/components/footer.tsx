@@ -14,7 +14,7 @@ export default function Footer() {
         <div className="text-center">
           <div className="text-2xl font-bold mb-4">Darin Williams</div>
           <p className="text-slate-300 mb-6">
-            Full Stack Developer passionate about creating amazing digital
+            AI/ML Engineer passionate about creating amazing digital
             experiences
           </p>
 
