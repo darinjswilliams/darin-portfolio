@@ -35,7 +35,7 @@ export class MemStorage implements IStorage {
       },
       {
         id: "2",
-        title: "Task Management App",
+        title: "Bank Customer Churn Prediction",
         description: "A React Native mobile application for task management with real-time synchronization, offline capabilities, and intuitive user interface.",
         imageUrl: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
         technologies: ["React Native", "Firebase", "Redux"],
@@ -45,7 +45,7 @@ export class MemStorage implements IStorage {
       },
       {
         id: "3",
-        title: "Analytics Dashboard",
+        title: "Time Series Forecasting",
         description: "A comprehensive analytics platform with real-time data visualization, custom reports, and interactive charts built with D3.js and Python backend.",
         imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
         technologies: ["D3.js", "Python", "Django", "PostgreSQL"],
