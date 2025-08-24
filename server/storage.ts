@@ -35,7 +35,7 @@ export class MemStorage implements IStorage {
       },
       {
         id: "2",
-        title: "Bank Customer Churn Prediction",
+        title: "Easy Visa Approval App",
         description: "A React Native mobile application for task management with real-time synchronization, offline capabilities, and intuitive user interface.",
         imageUrl: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
         technologies: ["React Native", "Firebase", "Redux"],
