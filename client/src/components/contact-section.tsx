@@ -64,7 +64,7 @@ export default function ContactSection() {
     {
       icon: Mail,
       title: "Email",
-      value: "darin.williams@example.com",
+      value: "darinjswilliams@icloud.com",
     },
     {
       icon: Phone,

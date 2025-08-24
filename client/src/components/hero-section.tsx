@@ -78,7 +78,7 @@ export default function HeroSection() {
                 <Twitter className="h-6 w-6" />
               </a>
               <a
-                href="mailto:darin.williams@example.com"
+                href="mailto:darinjswilliams@icloud.com"
                 className="text-slate-600 hover:text-primary transition-colors duration-300"
                 data-testid="link-email"
               >
