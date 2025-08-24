@@ -27,22 +27,18 @@ export default function AboutSection() {
             </h2>
             <div className="space-y-6 text-lg text-slate-600">
               <p>
-                I'm a passionate full-stack developer with over 5 years of
-                experience building scalable web applications. I specialize in
-                modern JavaScript frameworks and have a strong background in
-                both frontend and backend development.
+                AI/ML Engineer leveraging 15+ years of software engineering experience to build intelligent, scalable systems that solve real-world problems. After earning Developer of the Year twice at BlueCross Blue Shield, I transitioned into machine learning through professional certifications from MIT, Microsoft, and the University of Texas at Austin—where I focused on applying AI to business-critical challenges.
               </p>
               <p>
-                My journey in tech started with a Computer Science degree, but
-                my real learning happened through building real-world projects
-                and staying up-to-date with the latest technologies. I love
-                solving complex problems and creating user-friendly solutions.
+                I specialize in NLP, Retrieval-Augmented Generation (RAG), MLOps, and cloud-native deployments. My recent work includes:
               </p>
+              <div className="ml-4">
+                <p>▪ A clinical decision support tool powered by Merck Medical Manuals</p>
+                <p>▪ Predictive modeling that improved customer retention by 15%</p>
+                <p>▪ A quarterly sales forecast model for a national retailer using XGBoost, improving accuracy by 18%</p>
+              </div>
               <p>
-                When I'm not coding, you can find me contributing to open-source
-                projects, writing technical blogs, or exploring new
-                technologies. I'm always excited to work on innovative projects
-                that make a difference.
+                I bring engineering rigor, AI fluency, and a mission-driven mindset to every project—whether in healthcare, legal tech, or manufacturing. My goal is to architect intelligent systems that scale responsibly and deliver measurable impact.
               </p>
             </div>
 
