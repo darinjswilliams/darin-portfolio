@@ -19,7 +19,7 @@ export default function HeroSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
             <h1 className="text-5xl md:text-6xl font-bold text-secondary mb-6 leading-tight">
-              Hi, I'm <span className="text-primary">Alex</span>
+              Hi, I'm <span className="text-primary">Darin</span>
             </h1>
             <p className="text-xl md:text-2xl text-slate-600 mb-4 font-medium">
               Full Stack Developer
@@ -78,7 +78,7 @@ export default function HeroSection() {
                 <Twitter className="h-6 w-6" />
               </a>
               <a
-                href="mailto:alex.johnson@example.com"
+                href="mailto:darin.williams@example.com"
                 className="text-slate-600 hover:text-primary transition-colors duration-300"
                 data-testid="link-email"
               >

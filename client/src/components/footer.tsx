@@ -5,14 +5,14 @@ export default function Footer() {
     { icon: Github, href: "https://github.com", label: "GitHub" },
     { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
     { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-    { icon: Mail, href: "mailto:alex.johnson@example.com", label: "Email" },
+    { icon: Mail, href: "mailto:darin.williams@example.com", label: "Email" },
   ];
 
   return (
     <footer className="bg-secondary text-white py-12" data-testid="footer">
       <div className="container mx-auto px-6">
         <div className="text-center">
-          <div className="text-2xl font-bold mb-4">Alex Johnson</div>
+          <div className="text-2xl font-bold mb-4">Darin Williams</div>
           <p className="text-slate-300 mb-6">
             Full Stack Developer passionate about creating amazing digital
             experiences
@@ -40,7 +40,7 @@ export default function Footer() {
 
           <div className="border-t border-slate-600 pt-8">
             <p className="text-slate-400">
-              © 2024 Alex Johnson. All rights reserved.
+              © 2024 Darin Williams. All rights reserved.
             </p>
           </div>
         </div>
