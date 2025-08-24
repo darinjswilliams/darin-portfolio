@@ -69,12 +69,12 @@ export default function ContactSection() {
     {
       icon: Phone,
       title: "Phone",
-      value: "+1 (555) 123-4567",
+      value: "972-261-3810",
     },
     {
       icon: MapPin,
       title: "Location",
-      value: "San Francisco, CA",
+      value: "Dallas, TX",
     },
   ];
 
