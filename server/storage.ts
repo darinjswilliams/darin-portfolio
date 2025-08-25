@@ -75,7 +75,7 @@ export class MemStorage implements IStorage {
       },
       {
         id: "6",
-        title: "Fitness Tracking App",
+        title: "Medical Assistant RAG",
         description: "A comprehensive fitness tracking application with workout plans, progress monitoring, and social features for fitness enthusiasts.",
         imageUrl: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500",
         technologies: ["Flutter", "Dart", "Firebase"],
