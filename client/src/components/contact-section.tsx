@@ -16,7 +16,7 @@ export default function ContactSection() {
     email: "",
     message: "",
   });
-  
+
   const { toast } = useToast();
   const queryClient = useQueryClient();
 
@@ -54,7 +54,7 @@ export default function ContactSection() {
   };
 
   const handleInputChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
@@ -128,7 +128,11 @@ export default function ContactSection() {
           {/* Contact Form */}
           <Card className="bg-white/10 backdrop-blur-md border-white/20">
             <CardContent className="p-8">
-              <form onSubmit={handleSubmit} className="space-y-6" data-testid="contact-form">
+              <form
+                onSubmit={handleSubmit}
+                className="space-y-6"
+                data-testid="contact-form"
+              >
                 <div>
                   <Label htmlFor="name" className="text-white">
                     Name

@@ -8,8 +8,13 @@ import {
   SiJavascript,
   SiDocker,
   SiGit,
-  SiAmazon,
-  SiMongodb,
+  SiTensorflow,
+  SiOpencv,
+  SiHuggingface,
+  SiStreamlit,
+  SiFlask,
+  SiPytorch,
+  SiKotlin,
 } from "react-icons/si";
 
 interface Skill {
@@ -34,7 +39,7 @@ export default function SkillsSection() {
       icon: Laptop,
       color: "text-primary",
       skills: [
-        { name: "React", level: 95 },
+        { name: "ReactJS", level: 95 },
         { name: "TypeScript", level: 90 },
         { name: "Next.js", level: 85 },
       ],
@@ -44,9 +49,9 @@ export default function SkillsSection() {
       icon: Server,
       color: "text-accent",
       skills: [
-        { name: "Node.js", level: 92 },
+        { name: "Java", level: 92 },
         { name: "Python", level: 88 },
-        { name: "Express.js", level: 90 },
+        { name: "Flask", level: 90 },
       ],
     },
     {
@@ -54,9 +59,9 @@ export default function SkillsSection() {
       icon: Database,
       color: "text-green-500",
       skills: [
-        { name: "MongoDB", level: 87 },
-        { name: "PostgreSQL", level: 82 },
-        { name: "Redis", level: 75 },
+        { name: "ChromaDB", level: 87 },
+        { name: "SQL", level: 82 },
+        { name: "MongoDB", level: 75 },
       ],
     },
     {
@@ -64,22 +69,22 @@ export default function SkillsSection() {
       icon: Wrench,
       color: "text-purple-500",
       skills: [
-        { name: "Git", level: 95 },
+        { name: "Azure", level: 95 },
         { name: "Docker", level: 80 },
-        { name: "AWS", level: 78 },
+        { name: "YOLO", level: 78 },
       ],
     },
   ];
 
   const technologies = [
-    { icon: SiReact, name: "React", color: "text-blue-500" },
-    { icon: SiNodedotjs, name: "Node.js", color: "text-green-600" },
-    { icon: SiPython, name: "Python", color: "text-blue-400" },
-    { icon: SiJavascript, name: "JavaScript", color: "text-yellow-500" },
+    { icon: SiStreamlit, name: "Streamlit", color: "text-red-500" },
+    { icon: SiHuggingface, name: "Hugging Face", color: "text-green-600" },
+    { icon: SiKotlin, name: "Kotlin", color: "text-blue-400" },
+    { icon: SiPytorch, name: "PyTorch", color: "text-yellow-500" },
     { icon: SiDocker, name: "Docker", color: "text-blue-600" },
     { icon: SiGit, name: "Git", color: "text-red-500" },
-    { icon: SiAmazon, name: "AWS", color: "text-orange-500" },
-    { icon: SiMongodb, name: "MongoDB", color: "text-green-600" },
+    { icon: SiTensorflow, name: "Tensorflow", color: "text-orange-500" },
+    { icon: SiOpencv, name: "OpenCV", color: "text-green-600" },
   ];
 
   useEffect(() => {
@@ -89,7 +94,7 @@ export default function SkillsSection() {
           setIsVisible(true);
         }
       },
-      { threshold: 0.3 }
+      { threshold: 0.3 },
     );
 
     if (sectionRef.current) {
@@ -150,10 +155,10 @@ export default function SkillsSection() {
                               category.title === "Frontend"
                                 ? "bg-primary"
                                 : category.title === "Backend"
-                                ? "bg-accent"
-                                : category.title === "Database"
-                                ? "bg-green-500"
-                                : "bg-purple-500"
+                                  ? "bg-accent"
+                                  : category.title === "Database"
+                                    ? "bg-green-500"
+                                    : "bg-purple-500"
                             }`}
                             style={{
                               width: isVisible ? `${skill.level}%` : "0%",
@@ -183,7 +188,9 @@ export default function SkillsSection() {
                 className="p-4 hover:shadow-lg transition-shadow duration-300 text-center"
                 data-testid={`tech-icon-${tech.name.toLowerCase()}`}
               >
-                <IconComponent className={`h-12 w-12 ${tech.color} mb-2 mx-auto`} />
+                <IconComponent
+                  className={`h-12 w-12 ${tech.color} mb-2 mx-auto`}
+                />
                 <span className="text-sm font-medium text-slate-600">
                   {tech.name}
                 </span>

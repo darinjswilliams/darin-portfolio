@@ -15,9 +15,11 @@ export default function ProjectsSection() {
 
   const filters = [
     { label: "All Projects", value: "all" },
-    { label: "React", value: "react" },
-    { label: "Full Stack", value: "fullstack" },
-    { label: "Mobile", value: "mobile" },
+    { label: "Computer Vision", value: "computer-vision" },
+    { label: "Predictive", value: "predictive" },
+    { label: "Churn", value: "churn" },
+    { label: "Agentic AI", value: "rag" },
+    { label: "Forecasting", value: "forecasting" }
   ];
 
   const filteredProjects = projects.filter((project) =>
@@ -62,7 +64,7 @@ export default function ProjectsSection() {
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
             Here are some of my recent projects that showcase my skills and
-            experience in web development.
+            experience in Machine Learning and Agentic AI.
           </p>
         </div>
 

@@ -1,10 +1,11 @@
 import { Github, Linkedin, Twitter, Mail } from "lucide-react";
+import { SiWhatsapp } from "react-icons/si";
 
 export default function Footer() {
   const socialLinks = [
-    { icon: Github, href: "https://github.com", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
+    { icon: Github, href: "https://github.com/darinjswilliams", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/darinjeswilliams/", label: "LinkedIn" },
+    { icon: SiWhatsapp, href: "https://wa.me/19722613810?text=Hi%20Darin%2C%20I%27m%20interested%20in%20your%20work", label: "Twitter" },
     { icon: Mail, href: "mailto:darinjswilliams@icloud.com", label: "Email" },
   ];
 
@@ -40,7 +41,7 @@ export default function Footer() {
 
           <div className="border-t border-slate-600 pt-8">
             <p className="text-slate-400">
-              © 2024 Darin Williams. All rights reserved.
+              © 2025 Darin Williams. All rights reserved.
             </p>
           </div>
         </div>

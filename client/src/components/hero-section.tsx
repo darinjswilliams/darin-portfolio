@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { ArrowDown, Github, Linkedin, Twitter, Mail, Code, Rocket } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Mail, Code, Rocket } from "lucide-react";
+import { SiWhatsapp } from "react-icons/si";
 
 export default function HeroSection() {
   const scrollToSection = (sectionId: string) => {
@@ -22,11 +23,14 @@ export default function HeroSection() {
               Hi, I'm <span className="text-primary">Darin</span>
             </h1>
             <p className="text-xl md:text-2xl text-slate-600 mb-4 font-medium">
-              AI/ML Engineer | MIT-Certified in Graph Algorithms & Large Language Models | Building Scalable Solutions in Healthcare & Legal Tech | Azure AI Engineer | Microsoft Professional AI & ML Engineer
+              AI/ML Engineer | MIT-Certified in Graph Algorithms & Large
+              Language Models | Building Scalable Solutions in Healthcare &
+              Legal Tech | Azure AI Engineer | Microsoft Professional AI & ML
+              Engineer
             </p>
             <p className="text-lg text-slate-600 mb-8 max-w-lg mx-auto lg:mx-0">
-              I build scalable web applications and create exceptional digital
-              experiences using modern technologies.
+              Award‑winning engineer creating robust, ethical AI from enterprise
+              systems to clinical tools
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
@@ -51,7 +55,7 @@ export default function HeroSection() {
             {/* Social Links */}
             <div className="flex gap-6 justify-center lg:justify-start">
               <a
-                href="https://github.com"
+                href="https://github.com/darinjswilliams"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-600 hover:text-primary transition-colors duration-300"
@@ -60,7 +64,7 @@ export default function HeroSection() {
                 <Github className="h-6 w-6" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/darinjeswilliams/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-600 hover:text-primary transition-colors duration-300"
@@ -69,13 +73,13 @@ export default function HeroSection() {
                 <Linkedin className="h-6 w-6" />
               </a>
               <a
-                href="https://twitter.com"
+                href="https://wa.me/19722613810?text=Hi%20Darin%2C%20I%27m%20interested%20in%20your%20work"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-600 hover:text-primary transition-colors duration-300"
-                data-testid="link-twitter"
+                data-testid="link-whatsapp"
               >
-                <Twitter className="h-6 w-6" />
+                <SiWhatsapp className="h-6 w-6" />
               </a>
               <a
                 href="mailto:darinjswilliams@icloud.com"
