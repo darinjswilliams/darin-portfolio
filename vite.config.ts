@@ -16,7 +16,7 @@ export default defineConfig({
         ]
       : []),
   ],
-  base: "/darin-portfolio",
+  base: "/darinjswilliams.github.io/darin-portfolio",
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
